@@ -1,1 +1,13 @@
-IyDlvbHop4bph4fpm4bmjqXlj6PmuIXljZXvvIjoi7nmnpxDTVPnlJ/mgIEgcHJvdmlkZS92b2TvvInkuIDooYzkuIDkuKrvvIwj5ZCO5aSH5rOoCiMg55u06ZO+IG0zdTgg56uZ5LyY5YWI77yML3BsYXkvIOe9kemhteermemdoCBBcHAg6Ieq5Yqo5oqg5rqQ5YWc5bqVCmh0dHBzOi8vYXBpLmFwaWJkenkuY29tL2FwaS5waHAvcHJvdmlkZS92b2QvICAjIOeZvuW6piDnm7Tpk74KaHR0cHM6Ly9hcGkuMTA4MHp5a3UuY29tL2luYy9hcGlqc29uLnBocCAgIyAxMDgwIOebtOmTvgpodHRwczovL2lrdW56eWFwaS5jb20vYXBpLnBocC9wcm92aWRlL3ZvZC8gICMg54ix5Z2kIOebtOmTvgpodHRwczovL3d3dy5ob25nbml1enkyLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLyAgIyDnuqLniZsg572R6aG1Cmh0dHBzOi8vanl6eWFwaS5jb20vcHJvdmlkZS92b2QvICAjIOmyuOmxvCDnvZHpobUKaHR0cHM6Ly9qc3p5YXBpLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLyAgIyDmnoHpgJ8g572R6aG1Cmh0dHBzOi8vY2ouZmZ6eWFwaS5jb20vYXBpLnBocC9wcm92aWRlL3ZvZC8gICMg6Z2e5YehIOe9kemhtQpodHRwczovL2FwaS56dWlkYXBpLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLwpodHRwczovL2FwaS5ndWFuZ3N1YXBpLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLwpodHRwczovL2JmenlhcGkuY29tL2FwaS5waHAvcHJvdmlkZS92b2QvCg==
+# 影视采集接口清单（苹果CMS生态 provide/vod）一行一个，#后备注
+# 直链 m3u8 站优先，/play/ 网页站靠 App 自动抠源兜底
+# 11-04 尸检排序：健康站按验活成绩排前，僵尸/半死站垫底（垫底≠删除，复活自动爬回——由 250 每日验活机器人自动维护）
+https://api.zuidapi.com/api.php/provide/vod/  # 酷播 尸检6/6全活
+https://api.apibdzy.com/api.php/provide/vod/  # 百度 4/4
+https://jyzyapi.com/provide/vod/  # 鲸鱼 5/6 带双线路
+https://ikunzyapi.com/api.php/provide/vod/  # 爱坤 4/6
+https://api.guangsuapi.com/api.php/provide/vod/  # 光速 4/6
+https://www.hongniuzy2.com/api.php/provide/vod/  # 红牛 4/6
+https://jszyapi.com/api.php/provide/vod/  # 极速 半死不活(热门页回占位页)
+https://api.1080zyku.com/inc/apijson.php  # 1080资源 ☠播放器全404
+https://cj.ffzyapi.com/api.php/provide/vod/  # 非凡 ☠全403/405
+https://bfzyapi.com/api.php/provide/vod/  # 暴风 ☠全回错误页
